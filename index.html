@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="un portafolio">
+    <meta name="keywords" content="portafolio, diseño grafico, diseño web">
+
+    <title>Home del portafolio</title>
+    <link rel="shortcut icon" href="./imagenes/logo.svg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Lato:ital,wght@0,30;0,300;0,400;0,700;0,900;1,30;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,30..900;1,30..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4cb147f19a.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo" src="./imagenes/logo.svg" alt="logo">
+                </a>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img class="logo" src="./imagenes/logo.svg" alt="logo">
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav  flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/sobremi.html">Sobre mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/portafolio.html">Portafolio</a>
+                            </li>                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                            </li>                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/mapa.html">Mapa</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="fondo-index">
+        <article class="home">
+            <div class="home-contenedor">
+                <div class="home-contenedor-h1">
+                    <h1>Hola!! soy Wilson</h1>
+                </div>
+                <div class="home-contenedor-milinea"></div>
+                <figure class="home-contenedor-img">
+                    <img class="yo" src="./imagenes/foto mia.svg" alt="">
+                </figure>
+                <div class="home-contenedor-textos">
+                    <div>
+                        <h2>Sobre mi</h2>
+                        <p>¡Hola! Soy Wilson Villa Camargo, estudiante de Diseño Gráfico en FADU-UBA y graduado del curso de Diseño UX/UI en Coderhouse. Soy creativo, sociable y responsable, siempre buscando aprender y obtener diferentes perspectivas para mejorar mis proyectos. Apasionado por el diseño digital, estoy listo para colaborar en soluciones innovadoras y atractivas. ¡Conéctate conmigo para explorar oportunidades de colaboración!</p>
+                    </div>
+            </div>
+        </article>
+
+        <section class="sobremi">
+            <ol>
+                <li>Cualidades </li>
+                <li>Habilidades</li>
+                <li>Programas</li>
+            </ol>
+            <div class="milinea"></div>
+            <div class="botonderecha">
+                    <a href="./pages/sobremi.html">
+                        <button> Ver más </button>
+                    </a>
+            </div>
+        </section>
+        
+
+        <section class="portafolio">
+                <h2>Portafolio</h2>
+                <div id="carouselExample" class="carousel scroll">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="./imagenes/logojpg-min.jpg" class="" alt="./imagenes/logojpg-min.jpg">
+                            <img src="./imagenes/logojpg-min.jpg" class=" " alt="./imagenes/logojpg-min.jpg">
+                            <img src="./imagenes/logojpg-min.jpg" class="" alt="./imagenes/logojpg-min.jpg">
+                            <img src="./imagenes/logojpg-min.jpg" class="" alt="./imagenes/logojpg-min.jpg">
+                            <img src="./imagenes/logojpg-min.jpg" class="" alt="./imagenes/logojpg-min.jpg">
+                            <img src="./imagenes/logojpg-min.jpg" class="" alt="./imagenes/logojpg-min.jpg">
+                            <img src="./imagenes/logojpg-min.jpg" class="" alt="./imagenes/logojpg-min.jpg">
+                            <img src="./imagenes/logojpg-min.jpg" class="" alt="./imagenes/logojpg-min.jpg">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="portafolio">
+            <div class="botonderecha">
+                <a href="./pages/portafolio.html">
+                    <button>Ver más</button>
+                </a>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Massa egestas donec tellus ultricies laoreet. Molestie sagittis consectetur quam vitae euismod sed. Suspendisse adipiscing elementum sed tortor ullamcorper sit odio ut quis. Sagittis sagittis tristique ut adipiscing mauris lectus sit et.</p>
+            <a href="./pages/contacto.html">
+                <button>Contactar</button>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <img  class="logo" src="./imagenes/logo.svg" alt="logo de la marca">
+
+        <p>Lorem ipsum dolor sit amet consectetur. Massa egestas donec tellus ultricies laoreet. Molestie sagittis consectetur quam vitae euismod sed. Suspendisse adipiscing elementum sed tortor ullamcorper sit odio ut quis. Sagittis sagittis tristique ut adipiscing mauris lectus sit et</p>
+        
+        <figure>
+            <a href="">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="">
+                <i  class="fa-brands fa-youtube"></i>
+            </a>
+        </figure>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
