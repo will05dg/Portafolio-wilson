@@ -103,8 +103,7 @@ article{
 
 .home-contenedor {
     position:relative;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    @include grid-p (repeat(2, 1fr) , 10px);
 }
 
 .home-contenedor-h1{
@@ -238,11 +237,8 @@ h4{
 
 /*pagina, portafolio*/
 
-
 .galeria-trabajos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    @include grid-p (repeat(3, 1fr) , 20px)
 }
 
 .galeria-trabajos a img{
@@ -408,9 +404,7 @@ button {
 /*footer*/
 
 footer{
-    display:grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
+    @include grid-p (repeat(1, 1fr) , 20px);
 }
 
 footer .logo {
@@ -435,9 +429,7 @@ footer figure {
 /* pagina portafolio*/
 
 .galeria-trabajos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    @include grid-p (repeat(2, 1fr) , 10px);
 }
 
 /*pagina, contacto*/

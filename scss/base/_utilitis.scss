@@ -6,4 +6,13 @@
     -webkit-text-fill-color: transparent;
 }
 
-//mixin
+//mixin sin parametros
+
+//mixin con parametros
+
+@mixin grid-p ($colum, $px) {
+    display: grid;
+    grid-template-columns: $colum ;
+    grid-gap: $px;
+}
+
