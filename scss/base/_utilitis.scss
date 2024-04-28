@@ -1,0 +1,9 @@
+//extend
+
+.tipograndiente {
+    background:$gradiente-texto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+//mixin

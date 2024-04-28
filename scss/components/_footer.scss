@@ -1,0 +1,41 @@
+/*footer*/
+
+footer {
+    background-color:$blanco-color;
+    padding-top: 4%;
+    padding-right: 12%;
+    padding-left: 12%;
+    padding-bottom: 4%;
+    display:block;
+    
+}
+
+footer p {
+    margin-right:20%;
+    margin-left: 15%;
+    margin-bottom:5%;
+    margin-top: 0px;
+}
+
+footer figure {
+    text-align:right;
+}
+
+footer figure a {
+    text-decoration:none;
+    :hover{
+        font-size: 19pt;
+        background:$gradiente-texto;
+        transition: 0,25s;
+    }
+}
+
+.fa-brands{
+    font-size: 20pt;
+    color:$blanco-color;
+    background:$gradiente-texto;
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 100%;
+}
+
