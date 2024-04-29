@@ -7,7 +7,6 @@ footer {
     padding-left: 12%;
     padding-bottom: 4%;
     display:block;
-    
 }
 
 footer p {
@@ -25,7 +24,7 @@ footer figure a {
     text-decoration:none;
     :hover{
         font-size: 19pt;
-        background:$gradiente-texto;
+        background:$gradient-color-invertido;
         transition: 0,25s;
     }
 }
@@ -33,7 +32,7 @@ footer figure a {
 .fa-brands{
     font-size: 20pt;
     color:$blanco-color;
-    background:$gradiente-texto;
+    background:$gradient-color;
     margin-left: 20px;
     padding: 15px;
     border-radius: 100%;

@@ -70,7 +70,7 @@ button {
 .contacto{
     a{
         :hover {
-            background:linear-gradient(0.25turn, rgb(63, 169, 245), rgb(124, 0, 255));
+            background:$gradient-color-invertido;
         }
     }
 }
@@ -79,7 +79,7 @@ button {
     text-align:right;
     a {
         :hover {
-            background:linear-gradient(0.25turn, rgb(63, 169, 245), rgb(124, 0, 255));
+            background:$gradient-color-invertido;
         }
     }
 }

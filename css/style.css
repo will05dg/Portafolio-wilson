@@ -39,14 +39,14 @@ footer figure a {
 }
 footer figure a :hover {
   font-size: 19pt;
-  background: -webkit-linear-gradient(#7C00FF, #3FA9F5);
+  background: linear-gradient(to bottom, #7C00FF, #3FA9F5);
   transition: 0, 25s;
 }
 
 .fa-brands {
   font-size: 20pt;
   color: #FDFEFE;
-  background: -webkit-linear-gradient(#7C00FF, #3FA9F5);
+  background: linear-gradient(to bottom, #3FA9F5, #7C00FF);
   margin-left: 20px;
   padding: 15px;
   border-radius: 100%;
@@ -334,14 +334,14 @@ button {
 }
 
 .contacto a :hover {
-  background: linear-gradient(0.25turn, rgb(63, 169, 245), rgb(124, 0, 255));
+  background: linear-gradient(to bottom, #7C00FF, #3FA9F5);
 }
 
 .botonderecha {
   text-align: right;
 }
 .botonderecha a :hover {
-  background: linear-gradient(0.25turn, rgb(63, 169, 245), rgb(124, 0, 255));
+  background: linear-gradient(to bottom, #7C00FF, #3FA9F5);
 }
 
 .navbar-toggler {
