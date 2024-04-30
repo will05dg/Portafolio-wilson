@@ -331,9 +331,13 @@ h4 {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
-
+.galeria-trabajos a:hover {
+  transition: 0, 20s;
+  border-radius: 12pt;
+  border: 1pt solid #7C00FF;
+}
 .galeria-trabajos a img {
-  width: 100%;
+  width: 90%;
 }
 
 .galeria-trabajos-1 {
