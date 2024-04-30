@@ -66,6 +66,7 @@ button {
     font-size:large;
     border: none;
     &:hover {
+        transition:0.25s;
         background:$gradient-color-invertido;
     }
 }
@@ -176,12 +177,12 @@ section ol{
 .carousel-item img {
     width: 18%;
     margin-right: 1%;
-}
-
-.carousel-item img:hover{
-    border-radius: 12px;
-    transition: 0,25s;
-    border: 1pt solid #7C00FF;
+    &:hover{
+        transition: 0,50s;
+        border-radius: 12px;
+        transition: 0,25s;
+        border: 1pt solid #7C00FF;
+    }
 }
 
 /* width */
