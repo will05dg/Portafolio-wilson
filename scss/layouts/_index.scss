@@ -65,23 +65,13 @@ button {
     border-radius: 30px;
     font-size:large;
     border: none;
-}
-
-.contacto{
-    a{
-        :hover {
-            background:$gradient-color-invertido;
-        }
+    &:hover {
+        background:$gradient-color-invertido;
     }
 }
 
 .botonderecha {
     text-align:right;
-    a {
-        :hover {
-            background:$gradient-color-invertido;
-        }
-    }
 }
 
 .navbar-toggler{

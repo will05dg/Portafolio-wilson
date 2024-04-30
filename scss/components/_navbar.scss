@@ -20,16 +20,15 @@ header{
 .nav-link{
     color:rgb(54, 54, 54) ;
     font-weight: 600;
+    &:hover {
+        @extend .tipograndiente;
+    }
 }
 
 .navbar-nav{
     .nav-link.active{
         font-weight: 600;
         @extend .tipograndiente;
-    }
-    :hover {
-        @extend .tipograndiente;
-        transition: 0,25s;
     }
 }
 

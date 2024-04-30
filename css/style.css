@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.tipograndiente, section ol li, h1, .navbar-nav :hover, .navbar-nav .nav-link.active {
+.tipograndiente, section ol li, h1, .navbar-nav .nav-link.active, .nav-link:hover {
   background: -webkit-linear-gradient(#7C00FF, #3FA9F5);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -74,12 +74,8 @@ header {
   color: rgb(54, 54, 54);
   font-weight: 600;
 }
-
 .navbar-nav .nav-link.active {
   font-weight: 600;
-}
-.navbar-nav :hover {
-  transition: 0, 25s;
 }
 
 .logo {
@@ -110,6 +106,9 @@ header nav ol li a {
 /* teléfonos*/
 @media (max-width: 768px) {
   /*header*/
+  .offcanvas {
+    transition: 1s;
+  }
   header {
     padding: 3% 5%;
     padding-bottom: 0px;
@@ -332,16 +331,12 @@ button {
   font-size: large;
   border: none;
 }
-
-.contacto a :hover {
+button:hover {
   background: linear-gradient(to bottom, #7C00FF, #3FA9F5);
 }
 
 .botonderecha {
   text-align: right;
-}
-.botonderecha a :hover {
-  background: linear-gradient(to bottom, #7C00FF, #3FA9F5);
 }
 
 .navbar-toggler {

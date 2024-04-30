@@ -1,7 +1,12 @@
 /* teléfonos*/
+
 @media (max-width:768px) {
     /*header*/
-    
+
+    .offcanvas{
+        transition: 1s;
+    }
+
     header {
         padding: 3% 5%;
         padding-bottom: 0px;
