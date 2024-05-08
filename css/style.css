@@ -13,6 +13,22 @@
   -webkit-text-fill-color: transparent;
 }
 
+.galeria-trabajos-para-hover, .galeria-trabajos-1 .galeria-trabajos-1-texto, .galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(8deg, rgb(0, 0, 0) 8%, rgba(0, 212, 255, 0) 86%);
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: 0.5s;
+  opacity: 0;
+  padding: 4%;
+  text-align: justify;
+}
+
 /*footer*/
 footer {
   background-color: #FDFEFE;
@@ -38,7 +54,7 @@ footer figure a {
   text-decoration: none;
 }
 footer figure a :hover {
-  font-size: 19pt;
+  font-size: 19px;
   background: linear-gradient(to bottom, #7C00FF, #3FA9F5);
   transition: 0, 25s;
 }
@@ -338,20 +354,12 @@ h4 {
   transition: 0.25s;
   position: relative;
 }
-.galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(8deg, rgb(0, 0, 0) 8%, rgba(0, 212, 255, 0) 86%);
-  width: 100%;
-  height: 100%;
-  color: white;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  transition: 0.5s;
-  opacity: 0;
-  padding: 15px;
-  text-align: justify;
+.galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto h3 {
+  font-size: 20px;
+}
+.galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto p {
+  font-size: 14px;
+  padding: 0px;
 }
 .galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto:hover {
   opacity: 1;
@@ -365,24 +373,15 @@ h4 {
   grid-column: 1/3;
   grid-row: 1/3;
 }
-.galeria-trabajos-1 .galeria-trabajos-1-texto {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(8deg, rgb(0, 0, 0) 8%, rgba(0, 212, 255, 0) 86%);
-  width: 100%;
-  height: 100%;
-  color: white;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  transition: 0.5s;
-  opacity: 0;
-  padding: 15px;
-  text-align: justify;
+.galeria-trabajos-1 .galeria-trabajos-1-texto h3 {
+  font-size: 20px;
+}
+.galeria-trabajos-1 .galeria-trabajos-1-texto p {
+  font-size: 14px;
+  padding: 0px;
 }
 .galeria-trabajos-1 .galeria-trabajos-1-texto:hover {
   opacity: 1;
-  transition: 0, 20s;
 }
 
 /*pagina, contacto*/
@@ -479,6 +478,12 @@ textarea {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
+  }
+  .galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto h3 {
+    font-size: 14px;
+  }
+  .galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto p {
+    font-size: 9px;
   }
   /*pagina, contacto*/
   input {
