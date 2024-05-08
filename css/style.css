@@ -26,7 +26,7 @@
   transition: 0.5s;
   opacity: 0;
   padding: 4%;
-  text-align: justify;
+  text-align: start;
 }
 
 /*footer*/
@@ -354,7 +354,7 @@ h4 {
   transition: 0.25s;
   position: relative;
 }
-.galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto h3 {
+.galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto h2 {
   font-size: 20px;
 }
 .galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto p {
@@ -373,7 +373,7 @@ h4 {
   grid-column: 1/3;
   grid-row: 1/3;
 }
-.galeria-trabajos-1 .galeria-trabajos-1-texto h3 {
+.galeria-trabajos-1 .galeria-trabajos-1-texto h2 {
   font-size: 20px;
 }
 .galeria-trabajos-1 .galeria-trabajos-1-texto p {
@@ -479,7 +479,7 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
   }
-  .galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto h3 {
+  .galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto h2 {
     font-size: 14px;
   }
   .galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto p {
