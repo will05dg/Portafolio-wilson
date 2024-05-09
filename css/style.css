@@ -140,19 +140,19 @@ img {
 
 /*main*/
 .fondo-sobremi {
-  background: radial-gradient(transparent 100%, #EFF8FA), linear-gradient(transparent 60%, #EFF8FA 75%, #EFF8FA 95%), url(../imagenes/fondomin.jpg);
+  background: radial-gradient(transparent 100%, #EFF8FA), linear-gradient(transparent 60%, #EFF8FA 75%, #EFF8FA 95%), url(../imagenes/fondomin.png);
   background-size: 100% 50%;
   background-repeat: no-repeat;
 }
 
 .fondo-index {
-  background: url(../imagenes/fondomin.jpg);
+  background: url(../imagenes/fondomin.png);
   background-size: 100% 60%;
   background-repeat: no-repeat;
 }
 
 .fondo {
-  background: url(../imagenes/fondomin.jpg);
+  background: url(../imagenes/fondomin.png);
   background-size: 100% 100%;
 }
 
