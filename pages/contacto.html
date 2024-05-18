@@ -73,16 +73,16 @@
         <section>    
             <form action="#">
                     <label for="nombre"></label>
-                    <input name="nombre" type="text" placeholder="Nombre">
+                    <input name="nombre" id="nombre" type="text" placeholder="Nombre">
                     <label for="edad"></label>
-                    <input name="edad" type="number" placeholder="Edad">
+                    <input name="edad" id="edad" type="number" placeholder="Edad">
                 <div>
-                        <label for="mail"></label>
-                        <input name="email" type="email" required placeholder="@mail">
+                        <label for="email"></label>
+                        <input name="email" id="email" type="email" required placeholder="@mail" autocomplete="@mail">
                 </div>
                 <div>
                         <label for="texto"></label>
-                        <textarea name="texto" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" ></textarea>
+                        <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Escribe tu mensaje" ></textarea>
                 </div>
                 <div class="botonderecha">
                     <a href=>
@@ -95,9 +95,10 @@
 
     <footer>
         <img class="logo" src="../imagenes/logo.svg" alt="Logotipo con gradiente de violeta a azul en forma de letra W estilizada, representando modernidad y creatividad">
-        <p>¡Conéctate conmigo en las redes sociales!
-            Sígueme en mis redes sociales para mantenerte al tanto de mis últimos proyectos, inspiraciones y noticias del mundo del diseño. Estoy activo en las siguientes plataforma
-        </p>
+        <div class="footer-texto">
+            <h3>¡Conéctate conmigo en las redes sociales!</h3>
+            <p>Sígueme en mis redes sociales para mantenerte al tanto de mis últimos proyectos, inspiraciones y noticias del mundo del diseño. Estoy activo en las siguientes plataforma</p>
+        </div>
         <figure>
             <a href="" aria-label="whatsapp">
                 <i class="fa-brands fa-whatsapp"></i>

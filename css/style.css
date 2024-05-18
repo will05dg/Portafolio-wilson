@@ -39,11 +39,17 @@ footer {
   display: block;
 }
 
-footer p {
+.footer-texto {
   margin-right: 20%;
   margin-left: 15%;
   margin-bottom: 5%;
   margin-top: 0px;
+}
+.footer-texto h3 {
+  font-weight: 600;
+}
+.footer-texto p {
+  padding: 0px;
 }
 
 footer figure {
@@ -54,7 +60,6 @@ footer figure a {
   text-decoration: none;
 }
 footer figure a :hover {
-  font-size: 19px;
   background: linear-gradient(to bottom, #7C00FF, #3FA9F5);
   transition: 0, 25s;
 }
@@ -140,19 +145,19 @@ img {
 
 /*main*/
 .fondo-sobremi {
-  background: radial-gradient(transparent 100%, #EFF8FA), linear-gradient(transparent 60%, #EFF8FA 75%, #EFF8FA 95%), url(../imagenes/fondomin.png);
+  background: radial-gradient(transparent 100%, #EFF8FA), linear-gradient(transparent 60%, #EFF8FA 75%, #EFF8FA 95%), url(../imagenes/fondomin.jpg);
   background-size: 100% 50%;
   background-repeat: no-repeat;
 }
 
 .fondo-index {
-  background: url(../imagenes/fondomin.png);
+  background: url(../imagenes/fondomin.jpg);
   background-size: 100% 60%;
   background-repeat: no-repeat;
 }
 
 .fondo {
-  background: url(../imagenes/fondomin.png);
+  background: url(../imagenes/fondomin.jpg);
   background-size: 100% 100%;
 }
 
@@ -294,11 +299,12 @@ section ol li {
 .carousel-item img {
   width: 18%;
   margin-right: 1%;
+  border-radius: 12px;
 }
 .carousel-item img:hover {
   transition: 0, 50s;
   border-radius: 12px;
-  box-shadow: 3px 3px rgba(55, 0, 87, 0.658);
+  box-shadow: 1px 3px rgba(55, 0, 87, 0.432);
 }
 
 /* width */
@@ -399,6 +405,7 @@ textarea {
   padding: 10px;
   width: 100%;
   margin: 10px 0px;
+  resize: none;
 }
 
 /*pagina, mapa*/
@@ -462,7 +469,7 @@ textarea {
   footer .logo {
     margin: auto;
   }
-  footer p {
+  .footer-texto {
     margin: 0px;
   }
   footer figure {
