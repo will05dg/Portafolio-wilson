@@ -85,7 +85,7 @@ footer figure a {
 }
 footer figure a :hover {
   background: linear-gradient(to bottom, #7C00FF, #3FA9F5);
-  transition: 1s;
+  transition: 0, 25s;
 }
 
 .fa-brands {
