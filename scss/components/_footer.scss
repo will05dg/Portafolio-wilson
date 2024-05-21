@@ -30,7 +30,8 @@ footer figure a {
     text-decoration:none;
     :hover{
         background:$gradient-color-invertido;
-        transition: 0,25s;
+        @extend .sombras-boton-presionado;
+        transition:1s;
     }
 }
 
@@ -41,5 +42,6 @@ footer figure a {
     margin-left: 20px;
     padding: 15px;
     border-radius: 100%;
+    @extend .sombras-boton;
 }
 

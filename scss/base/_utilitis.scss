@@ -21,11 +21,24 @@
             padding: 4%;
             text-align:start;
 }
+//sombras
 
-.sombras{
-    -webkit-box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.63);
-    -moz-box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.63);
-    box-shadow: 2px 3px 4px -1px rgba(0,0,0,0.63);
+.sombras-fotos{
+    -webkit-box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.63);
+    -moz-box-shadow: 2px 3px 4px 0px rgba(0,0,0,0.63);
+    box-shadow: 2px 3px 4px 0px rgba(0,0,0,0.63);
+}
+
+.sombras-boton-presionado{
+    -webkit-box-shadow: 1px 0px 4px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 4px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 0px 4px 1px rgba(0,0,0,0.75);
+}
+
+.sombras-boton{
+    -webkit-box-shadow: 3px 2px 6px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 2px 6px 1px rgba(0,0,0,0.75);
+box-shadow: 3px 2px 6px 1px rgba(0,0,0,0.75);
 }
 
 .sombras-g{
