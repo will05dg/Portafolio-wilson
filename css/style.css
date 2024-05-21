@@ -15,7 +15,7 @@
 
 .galeria-trabajos-para-hover, .galeria-trabajos-1 .galeria-trabajos-1-texto, .galeria-trabajos .galeria-trabajos-2 .galeria-trabajos-1-texto {
   background: rgb(0, 0, 0);
-  background: linear-gradient(8deg, rgb(0, 0, 0) 8%, rgba(0, 212, 255, 0) 86%);
+  background: linear-gradient(8deg, rgb(0, 0, 0) 20%, rgba(0, 212, 255, 0) 96%);
   width: 100%;
   height: 100%;
   color: white;
@@ -27,6 +27,18 @@
   opacity: 0;
   padding: 4%;
   text-align: start;
+}
+
+.sombras, textarea, input, .galeria-trabajos img, .carousel-item img:hover, button {
+  -webkit-box-shadow: 2px 3px 8px -1px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 2px 3px 4px -1px rgba(0, 0, 0, 0.63);
+  box-shadow: 2px 3px 4px -1px rgba(0, 0, 0, 0.63);
+}
+
+.sombras-g, .section, .yo {
+  -webkit-box-shadow: 4px 3px 8px -1px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 4px 3px 8px -1px rgba(0, 0, 0, 0.63);
+  box-shadow: 4px 3px 8px -1px rgba(0, 0, 0, 0.63);
 }
 
 /*footer*/
@@ -304,8 +316,6 @@ section ol li {
 }
 .carousel-item img:hover {
   transition: 0, 50s;
-  border-radius: 12px;
-  box-shadow: 1px 3px rgba(55, 0, 87, 0.432);
 }
 
 /* width */

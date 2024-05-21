@@ -58,6 +58,7 @@ h3 {
 /*botones*/
 
 button {
+    @extend .sombras;
     background:$gradient-color;
     color:$blanco-color;
     padding:10px 60px;
@@ -91,6 +92,7 @@ article{
     width:70%;
     position:relative;
     border-radius:100%;
+    @extend .sombras-g;
 }
 
 .home-contenedor {
@@ -181,8 +183,7 @@ section ol{
     border-radius: 12px;
     &:hover{
         transition:0,50s;
-        border-radius: 12px;
-        box-shadow: 1px 3px rgba(55, 0, 87, 0.432);
+        @extend .sombras;
     }
 }
 
@@ -225,6 +226,7 @@ h3{
     border-radius: 30px;
     margin: 4% 12%;
     padding-top: 2%;
+    @extend .sombras-g;
 }
 
 /*pagina, portafolio*/
@@ -233,6 +235,7 @@ h3{
     @include grid-p (repeat(3, 1fr) , 20px);
     img{
             width: 100%;
+            @extend .sombras;
     }
     .galeria-trabajos-2 {
         display: flex;
@@ -284,6 +287,7 @@ input{
     padding: 10px;
     width: 49%;
     margin: 10px 0px;
+    @extend .sombras;
 }
 
 textarea {
@@ -293,6 +297,7 @@ textarea {
     width: 100%;
     margin: 10px 0px;
     resize: none;
+    @extend .sombras;
 }
 
 /*pagina, mapa*/
